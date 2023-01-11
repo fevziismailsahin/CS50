@@ -1,0 +1,9 @@
+yukseklik = int(input("Satir sayisi gir: "))
+
+for i in range(1, yukseklik + 1):
+    for j in range(1, yukseklik + 1):
+        if(j <= yukseklik - i):
+            print(' ', end = '')
+        else:
+            print('#', end = '')
+    print()
