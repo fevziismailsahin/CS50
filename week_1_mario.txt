@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int i, j, kat;
+
+    printf("Satir sayisini gir: ");
+    scanf("%d", &kat);
+
+    for(i=1; i<=kat; i++)
+    {
+        
+        for(j=i; j<kat; j++)
+        {
+            printf(" ");
+        }
+        for(j=1; j<=i; j++)
+        {
+            printf("#");
+        }
+
+        printf("\n");
+    }
+    
+    return 0;
+    }
